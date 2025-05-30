@@ -2,7 +2,7 @@ import axios from "axios";
 import { getToken } from "@/hooks/auth.ts";
 
 // Base URL
-export const BASE_URL = "http://curevia.tech/api";
+export const BASE_URL = "https://curevia.tech/api";
 
 // --- 1. Axios instance ---
 export const api = axios.create({
