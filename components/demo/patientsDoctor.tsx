@@ -120,7 +120,7 @@ export default function PatientsDoctor({
                         onClick={(e) => {
                           e.preventDefault();
                           e.stopPropagation();
-                          setOopenAddInfo(true);
+                          setRehabiInfo(true);
                         }}
                         disabled={loading}
                       >
